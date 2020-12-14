@@ -17,25 +17,25 @@ h1 {
 }
 
 .header {
-  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  background: transparent;
   border-radius: 15px 15px 0 0;
 }
 
 .wrapper {
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
-  margin: 4rem 1rem;
-  max-width: 470px;
+  margin: 2rem 2rem;
+  min-width: 500px;
   background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
-  min-height: 600px;
+  min-height: 800px;
   text-align: center;
-  padding: 0 1rem 2rem 1rem;
+  padding: 2rem;
 }
 
 .box {
   padding: 1rem;
   margin: auto;
-  max-width: 400px;
+  max-width: 450px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
@@ -95,10 +95,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  width: 30px;
+  width: 40px;
   border-radius: 15px;
   border-color: transparent;
   background-color: #4b6cb7;
@@ -106,7 +105,7 @@ a {
   margin-left: 5px;
   font-size: 20px;
   text-decoration: none;
-  padding: 12px;
+  padding: 15px;
   font-weight: 600;
 }
 
@@ -119,7 +118,7 @@ a:hover {
 button {
   font-size: 1rem;
   font-weight: 600;
-  padding: 12px;
+  padding: 15px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   width: auto;
@@ -127,7 +126,7 @@ button {
   border-color: transparent;
   background-color: #4b6cb7;
   color: #fff;
-  margin-left: 10px;
+  margin-left: 30px;
   text-decoration: none;
 }
 
@@ -164,9 +163,9 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
   .wrapper {
-    max-width: 390px;
+    margin: 10rem auto;
   }
   a {
     width: 25px;
